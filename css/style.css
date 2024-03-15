@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Retro';
+    src: url(../font/RETROTECH.ttf);
+}
+#body { 
+   font-family: 'Retro';
+    background-image: url(../img/fondoretro.jpg);
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-family: 'Retro';
+    font-size: 52px;
+}
+.T--Table {
+    background-color: rgb(62, 59, 59);
+    text-align: center;
+    font-family: 'Retro';
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    border: 5px groove;
+    border-radius: 10px;
+    border-color: RGB(237, 175, 5);
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.cell--black {
+    color: black;
+    border: 5px solid;
+    color: white;
+    width: 800px;
+    height: 30px;
+    border-bottom-color: White;
+}
+img {
+    width: 100%;
+}
+span {
+    color: red;
+}
+.cell--grey {
+    color: rgb(62, 59, 59);
+}
+.cell--red {
+   background-color: rgb(239, 5, 5);
+   border: 1px groove;
+}
+.cell--yellow {
+    background-color: rgb(239, 216, 5);
+    border: 1px groove;
+}
+.cell--blue {
+    background-color: blue;
+    border: 1px groove;
+}
+.cell--pink {
+    background-color: violet;
+    border: 1px groove;
+}
+.cell--green {
+    background-color: green;
+    border: 1px groove;
+}
+.cell--white {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 180%;
+    width: 40px;
+    height: 40px;
+}
