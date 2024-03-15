@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Retro';
-    src: url('../APC_Examen2/font/RETROTECH.ttf');
+    src: url('font/RETROTECH.ttf');
 }
 #body { 
    font-family: 'Retro';
