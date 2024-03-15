@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Retro';
-    src: url(../font/RETROTECH.ttf);
+    src: url('../APC_Examen2/font/RETROTECH.ttf');
 }
 #body { 
    font-family: 'Retro';
-    background-image: url(../img/fondoretro.jpg);
+    background-image: url('img/fondoretro.jpg');
     color: white;
     text-align: center;
 }
