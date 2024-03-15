@@ -32,6 +32,7 @@ h1 {
 }
 .cell--black {
     color: black;
+    background-color: black;
     border: 5px solid;
     color: white;
     width: 800px;
@@ -43,6 +44,10 @@ img {
 }
 span {
     color: red;
+}
+.cell--grey--up {
+    color: rgb(62, 59, 59);
+    border: 1px groove;
 }
 .cell--grey {
     color: rgb(62, 59, 59);
