@@ -25,11 +25,7 @@ h1 {
     border-radius: 10px;
     border-color: RGB(237, 175, 5);
 }
-.cell {
-    width: 40px;
-    height: 40px;
-    border-radius: 2px;
-}
+
 .cell--black {
     color: black;
     background-color: black;
@@ -37,17 +33,29 @@ h1 {
     color: white;
     width: 800px;
     height: 30px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
     border-bottom-color: White;
+    border-left: black;
+    border-right: black;
+    border-top: black;
+    padding: 10px;
 }
 img {
-    width: 100%;
+    width: 100px;
+    height: 20px;
 }
-span {
+.span1 {
     color: red;
+}
+.span2{
+    margin-right: 50px;
+
 }
 .cell--grey--up {
     color: rgb(62, 59, 59);
     border: 1px groove;
+    
 }
 .cell--grey {
     color: rgb(62, 59, 59);
@@ -73,10 +81,17 @@ span {
     border: 1px groove;
 }
 .cell--white {
-    background-color: white;
-    border-color: white;
-    border-style: solid;
-    border-radius: 180%;
+    background-color: rgb(62, 59, 59);
+    color: white;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40px;
+    max-height: 40px;
+}
+.cell {
     width: 40px;
     height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 2px;
 }
